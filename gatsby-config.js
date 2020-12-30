@@ -6,22 +6,18 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Baran Cezayirli | Technologist`,
-    author: `Baran Cezayirli`,
-    description: `With 10+ years of experience in various industries, I help tech
-              startups from idea phase to high volumes. I design and build
-              scalable solutions, implement internal processes that fit your
-              organization, build teams that produce results.`,
-    siteUrl: `https://barancezayirli.com/`,
+    title: `Staci Shon | Junior Full Stack Web Developer`,
+    author: `Staci Shon`,
+    description: `Full Stack Web Application Developer with background in Business management and Entrepreneurship. With over 5 years of experience in the hospitality industry, I’ve been effectively and creatively problem solving to develop user friendly applications for small businesses.`,
     social: {
-      twitter: `barancezayirli`,
+      linkedin: `staci-shon`,
     },
   },
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Baran Cezayirli | Technologist`,
+        name: `Staci Shon | Junior Full Stack Web Developer`,
         short_name: `CV`,
         start_url: `/`,
         background_color: `#f7f0eb`,
@@ -37,14 +33,6 @@ module.exports = {
       options: {
         name: `data`,
         path: `${__dirname}/data/`,
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-react-svg',
-      options: {
-        rule: {
-          include: /assets/,
-        },
       },
     },
     'gatsby-plugin-netlify-cms',

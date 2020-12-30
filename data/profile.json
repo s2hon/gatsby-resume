@@ -1,308 +1,203 @@
-{
+{ 
+  "role": "Junior Full Stack Web Developer/Project Manager/Event Planner",
+  "fullname": "Staci Jang Shon",
   "contact": {
-    "phone": "+380 63 251 76 44",
-    "email": "contact@barancezayirli.com",
-    "website": "https://barancezayirli.com",
-    "location": "Kiev, Ukraine"
+    "phone": "+1 979.219.5702",
+    "email": "staci.shon@gmail.com",
+    "website": "https://staci-shon.dev",
+    "location": "Austin, Texas"
   },
+  "summary": "Full Stack Web Application Developer with background in Business management and Entrepreneurship. With over 5 years of experience in the hospitality industry, I’ve been effectively and creatively problem solving to develop user friendly applications for small businesses.",
+  "education": [
+    {
+      "institution": "The University of Texas at Austin - Center for Professional Education",
+      "degree": "Web Development Full Stack Flex",
+      "description": "A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS.",
+      "start": "Sep 2020",
+      "end": "Dec 2020"
+    },
+    {
+      "institution": "The University of Texas at Austin - Red McCombs School of Business",
+      "degree": "BBA, Business Management with concentration in Entrepreneurship",
+      "start": "Aug 2013",
+      "end": "Dec 2018"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Event & Catering Coordinator",
+      "company": "La Pera Catering",
+      "location": "Austin, TX",
+      "goal": "Plan, organize, and execute event logistics with Event Manager from initial stages of development, through on-site and event wrap-up.",
+      "value": "Made job of Event Sales Manager and Event Manager easier by filling the gap in-between.",
+      "contribution": [
+        "Created a custom Kanban board, to keep track of all active events, in the first two weeks I joined the company.",
+        "Sales and booking rates increased 200% in a six-month period.",
+        "Successfully secured two long-term partnerships."
+      ],
+      "start": "Aug 2019",
+      "end": "April 2020"
+    },
+    {
+      "role": "Project Manager",
+      "company": "Barkeep",
+      "location": "Austin, TX",
+      "goal": "Plan, organize, and execute event logistics with Event Manager from initial stages of development, through on-site and event wrap-up.",
+      "value": "Strategic planning to gain exposure and funding is crucial for the survival of start ups.",
+      "contribution": [
+        "Coordinate all administrative (i.e. set up meetings, coordinate schedules), operational, analytical tasks/responsibilities related to business unit including assembling and summarizing data; preparing reports; making marketing strategies",
+        "Successfully entered and won several startup competitions, collecting several awards and prizes (totaling $10,000)"
+      ],
+      "start": "Aug 2017",
+      "end": "Mar 2019"
+    }
+  ],
+  "social": [
+    {
+      "service": "linkedin",
+      "url": "https://www.linkedin.com/in/staci-shon"
+    },
+    {
+      "service": "github",
+      "url": "https://github.com/s2hon"
+    },
+    {
+      "service": "facebook",
+      "url": "https://www.facebook.com/staci.shon"
+    },
+    {
+      "service": "instagram",
+      "url": "https://www.instagram.com/s2_hon"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Sushi Junai (Interactive Menu Web App)",
+      "keywords": "Initiate project, manage project development and completion, front-end, back-end",
+      "description": [
+        "Login, Register functionality & Users can save favorites.",
+        "Diners can add items to their order tracker, see the amount those items would've cost, and calculate tip.",
+        "A timer shows diners how long they have left in their limited all-you-can-eat dining time."
+      ],
+      "link": "https://sushi-junai.herokuapp.com/",
+      "github": "https://github.com/s2hon/sushi-junai",
+      "tools": "React, Redux, Node.JS (express/passport), MySQL, Sequelize, Yelp API, Reactstrap, Heroku"
+    },
+    {
+      "name": "EarBud (Academic Project)",
+      "keywords": "Initiate project, manage project development and completion, re-structure boilerplate code, front-end(AJAX), back-end(CRUD)",
+      "description": [
+        "Basic Login, Sign up (register) functionality.",
+        "User can search, catalogue, and review music on an individual page, curating their tastes and watching trends emerge in real time."
+      ],
+      "link": "https://earbudteam8.herokuapp.com/",
+      "github": "https://github.com/s2hon/EARBUD",
+      "responsibilities": "",
+      "tools": "HTML5, CSS3, Foundation, jQuery, Node.JS (express/passport), MySQL, Sequelize, Spotify API, Heroku"
+    }
+  ],
   "skills": [
     {
-      "title": "General",
-      "type": "percent",
-      "subskills": [
-        {
-          "name": "Architecture",
-          "percent": 89
-        },
-        {
-          "name": "Mobile/Web App Development",
-          "percent": 95
-        },
-        {
-          "name": "Product Management",
-          "percent": 85
-        },
-        {
-          "name": "Project Management",
-          "percent": 92
-        },
-        {
-          "name": "Game Development",
-          "percent": 70
-        },
-        {
-          "name": "Blockchain",
-          "percent": 85
-        },
-        {
-          "name": "Dev Ops",
-          "percent": 81
-        },
-        {
-          "name": "Backend Development",
-          "percent": 93
-        },
-        {
-          "name": "Data Science",
-          "percent": 65
-        },
-        {
-          "name": "Artificial Intelligence",
-          "percent": 70
-        },
-        {
-          "name": "UX",
-          "percent": 80
-        }
-      ]
-    },
-    {
-      "title": "Languages",
-      "type": "percent",
-      "subskills": [
-        {
-          "name": "Javascript",
-          "percent": 96
-        },
-        {
-          "name": "Java",
-          "percent": 82
-        },
-        {
-          "name": "Python",
-          "percent": 85
-        },
-        {
-          "name": "C#",
-          "percent": 74
-        },
-        {
-          "name": "Solidity",
-          "percent": 85
-        },
-        {
-          "name": "Dart",
-          "percent": 75
-        },
-        {
-          "name": "Go",
-          "percent": 60
-        }
-      ]
-    },
-    {
-      "title": "Frameworks",
+      "title": "Programming",
       "type": "tag",
       "subskills": [
         {
-          "name": "React"
+          "name": "Vanilla.js"
         },
         {
-          "name": "Flutter"
+          "name": "HTML5"
         },
         {
-          "name": "React Native"
+          "name": "CSS3"
         },
         {
-          "name": "Vue"
+          "name": "SQL"
         },
         {
-          "name": "Spring"
+          "name": "jQuery"
         },
         {
-          "name": "Angular"
+          "name": "Node.js"
         },
         {
-          "name": "Electron"
+          "name": "React.js"
         },
         {
-          "name": "Node"
-        },
-        {
-          "name": "Flusk"
-        },
-        {
-          "name": "Express"
-        },
-        {
-          "name": "Koa"
-        },
-        {
-          "name": "Gatsby"
-        },
-        {
-          "name": "Apollo"
-        },
-        {
-          "name": "Django"
-        },
-        {
-          "name": "Loopback"
-        },
-        {
-          "name": "Next"
-        },
-        {
-          "name": "Amplify"
-        },
-        {
-          "name": "Pixi"
-        },
-        {
-          "name": "Phaser"
-        },
-        {
-          "name": "Feathers"
+          "name": "Redux"
         }
       ]
     },
     {
-      "title": "Software",
+      "title": "Operating Enviornment",
       "type": "tag",
       "subskills": [
         {
-          "name": "Docker"
+          "name": "Mac OS"
         },
         {
-          "name": "Jira"
+          "name": "Windows"
+        }
+      ]
+    },
+    {
+      "title": "Other Tools",
+      "type": "tag",
+      "subskills": [
+        {
+          "name": "Microsoft Office Suite"
         },
         {
-          "name": "Unity"
+          "name": "G Suite"
         },
         {
-          "name": "Godot"
+          "name": "Trello"
+        },
+        {
+          "name": "Slack"
+        },
+        {
+          "name": "Visual Studio"
+        },
+        {
+          "name": "Git"
+        },
+        {
+          "name": "Mailchimp"
         },
         {
           "name": "Google Analytics"
         }
       ]
-    },
-    {
-      "title": "Databases",
-      "type": "tag",
-      "subskills": [
-        {
-          "name": "Postgresql"
-        },
-        {
-          "name": "Mongodb"
-        },
-        {
-          "name": "Parse"
-        },
-        {
-          "name": "Firebase"
-        },
-        {
-          "name": "Elastic Search"
-        }
-      ]
     }
   ],
-  "summary": "Highly focused technologist with a multidisciplinary skill set honed over 10+ years in the IT industry. I strive to build great products and can take an initial idea, tackle it from multiple angles and take it from something great to something incredible. With 10+ years of experience in various industries, I help tech startups from idea phase to high volumes. I design and build scalable solutions, implement internal processes that fit your organization, build teams that produce results.",
-  "education": [
+  "honors": [
     {
-      "institution": "Middle East Technical University, Turkey",
-      "degree": "Geological Engineering",
-      "start": "2013",
-      "end": "2006"
+      "date": "Dec 2018",
+      "name": "Barkeep App funded by the Genesis Program, Awarded $4,500"
     },
     {
-      "institution": "Gazi University, Turkey",
-      "degree": "Industrial Engineering",
-      "start": "2002",
-      "end": "2006"
+      "date": "Fall 2018",
+      "name": "Participant of YCombinator Startup School"
+    },
+    {
+      "date": "May 2018",
+      "name": "Awarded McCombs HKC Entrepreneur Summer Fellowship Director’s Choice with $3,000 and a two year membership at Capital Factory"
+    },
+    {
+      "date": "Mar 2018",
+      "name": "Placed in Top 6 during SXSW EDU/Blackstone Launchpad Pitch Competition"
+    },
+    {
+      "date": "Aug 2014 - Dec 2018",
+      "name": "ALDPES Member"
+    },
+    {
+      "date": "Jan 2015 - Dec 2018",
+      "name": "National Honor Society Member"
+    },
+    {
+      "date": "Aug 2014 - Dec 2014",
+      "name": "National Honor Society Chair"
     }
-  ],
-  "experience": [
-    {
-      "role": "Consultant",
-      "company": "Baran Cezayirli Consulting",
-      "description": "I consult startups to take their concept to the next level.",
-      "start": "08/2018",
-      "end": ""
-    },
-    {
-      "role": "Full Stack Tech Lead",
-      "company": "Malaeb Limited",
-      "description": "Malaeb is a group sports community and booking platform. I was managing all technical aspects of the product. I designed a new solution to improve the current platform, build and manage a new development team to migrate the new app. Implement better internal processes to increase productivity.",
-      "start": "11/2018",
-      "end": "09/2019"
-    },
-    {
-      "role": "Full Stack Tech Lead",
-      "company": "Solve Care",
-      "description": "Solve care is a healthcare blockchain platform. I was responsible for the client side development team and architecture of the platform. I was also active in product management team.",
-      "start": "04/2018",
-      "end": "11/2018"
-    },
-    {
-      "role": "Full Stack Lead Developer",
-      "company": "Applied Blockchain",
-      "description": "Applied Blockchain built blockchain applications for enterprises and startups. I built 4 full stack blockchain projects during my contract.",
-      "start": "10/2017",
-      "end": "04/2018"
-    },
-    {
-      "role": "Full Stack Lead Developer",
-      "company": "Dmapper",
-      "description": "Worked as a lead full-stack developer for Cortex which is B2B audit automation software for Deloitte. I was responsible for the architecture and development of the platform, managing development team.",
-      "start": "12/2016",
-      "end": "10/2017"
-    },
-    {
-      "role": "Front End Developer - UI/UX Designer",
-      "company": "GovRight",
-      "description": "GovRight provides citizens the opportunity to understand and contribute to government and legislation. I was responsible for the UX and development of admin interface for the platform.",
-      "start": "11/2015",
-      "end": "04/2016"
-    },
-    {
-      "role": "Full Stack Developer",
-      "company": "Freelance",
-      "description": "In the first years of my career, I had the privilege to work with many startups and building my own games and applications.",
-      "start": "04/2008",
-      "end": "01/2016"
-    }
-  ],
-  "social": [
-    {
-      "service": "youtube",
-      "url": "https://www.youtube.com/channel/UCczRc31u_YXNiSpYKxQU_Ug"
-    },
-    {
-      "service": "linkedin",
-      "url": "https://www.linkedin.com/in/barancezayirli"
-    },
-    {
-      "service": "twitter",
-      "url": "https://twitter.com/barancezayirli"
-    },
-    {
-      "service": "angellist",
-      "url": "https://angel.co/baran-cezayirli"
-    },
-    {
-      "service": "github",
-      "url": "https://github.com/barancezayirli"
-    },
-    {
-      "service": "facebook",
-      "url": "https://www.facebook.com/barancezayirli"
-    },
-    {
-      "service": "instagram",
-      "url": "https://www.instagram.com/barancezayirli"
-    }
-  ],
-  "role": "Technologist",
-  "projects": [
-    {
-      "name": "Gatsby resume starter",
-      "company": "Open source",
-      "description": "Gatsby resume tailwind is a free starter template with  Netlify CMS implementation. It is easy to customize the design with thanks to tailwind theming capabilities. It uses git as a backend and can be deployed to any static hosting service like Netlify, firebase hosting or Github pages.",
-      "link": "https://github.com/barancezayirli/gatsby-resume-tailwind"
-    }
-  ],
-  "fullname": "Baran Cezayirli"
+  ]
 }

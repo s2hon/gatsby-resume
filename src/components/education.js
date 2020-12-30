@@ -11,6 +11,7 @@ const Education = ({ data }) => (
           <p className="text-sm text-neutral-500 font-light">
             {item.start} - {item.end}
           </p>
+          <h4 className="item-sub">{item.description}</h4>
         </div>
       ))}
   </section>

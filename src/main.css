@@ -5,15 +5,16 @@
     @apply text-xs font-bold py-1 px-2 rounded;
 }
 
-.btn-secondary {
-    @apply bg-secondary-500 text-white;
+.btn-social-icon {
+    @apply fill-current text-primary-700;
 }
-.btn-secondary:hover {
-    @apply bg-secondary-700
+
+.btn-social-icon :hover {
+    @apply fill-current text-neutral-700;
 }
 
 .contact-icon {
-    @apply fill-current w-4 h-4 mr-4 text-secondary-500;
+    @apply fill-current w-4 h-4 mr-4 text-primary-700;
 }
 
 .contact-link {
@@ -21,12 +22,17 @@
 }
 
 .contact-link:hover {
-    @apply text-secondary-500;
+    @apply text-neutral-700;
 }
 
 .section-header {
-    @apply text-primary-500 text-xl border-l-4 border-primary-500 pl-3 font-bold;
+    @apply text-primary-700 text-xl border-l-4 border-primary-700 pl-3 font-bold;
 }
+
+.section-header-2 {
+    @apply text-xl font-bold tracking-tight leading-relaxed text-neutral-700 border-l-4 border-neutral-700 pl-3;
+}
+
 
 .item-header {
     @apply text-xl font-bold tracking-tight leading-relaxed text-neutral-700;
@@ -37,15 +43,15 @@
 }
 
 .tag {
-    @apply px-2 py-1 mr-2 mb-2 bg-primary-500 text-sm text-white inline-block capitalize font-light rounded;
+    @apply px-2 py-1 mr-2 mb-2 bg-primary-700 text-sm text-white inline-block capitalize font-light rounded;
 }
 
 .footer-social-link {
-    @apply text-primary-900 mr-4;
+    @apply text-primary-400 mr-4;
 }
 
 .footer-social-link:hover {
-    @apply text-primary-500;
+    @apply text-primary-700;
 }
 
 .footer-social-icon {

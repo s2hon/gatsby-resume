@@ -1,5 +1,8 @@
 import React from 'react';
-import HeartIcon from '../assets/heart.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { 
+  faHeart
+} from "@fortawesome/free-solid-svg-icons";
 import SocialIcon from './social_icon';
 
 const Footer = ({ social }) => (
@@ -9,19 +12,17 @@ const Footer = ({ social }) => (
         © {new Date().getFullYear()} | Developed with
       </span>
       <span className="inline-block mr-1">
-        <HeartIcon
-          className="h-3 w-3 fill-current"
-          style={{ color: '#de3618' }}
-        />
+        <FontAwesomeIcon icon={faHeart} className="h-3 w-3 fill-current"
+          style={{ color: '#de3618' }} size="2x" />
       </span>
       <span className="inline-block mr-1">by</span>
       <a
         className="text-primary-500 hover:text-primary-700 font-bold"
-        href="https://barancezayirli.com"
+        href="https://github.com/s2hon"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Baran Cezayirli
+        Staci Shon
       </a>
     </div>
     {social && (

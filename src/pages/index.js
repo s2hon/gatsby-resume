@@ -4,8 +4,8 @@ import {
   Summary,
   Experience,
   Projects,
+  Honors,
   Skills,
-  List,
   Education,
   Footer,
   SEO
@@ -25,16 +25,13 @@ const Home = () => (
       <Summary data={resume.summary} />
       <div className="border-b border-neutral-300 pb-2 my-5 lg:flex">
         <div className="lg:w-2/3 lg:pr-8">
-          {resume.experience && <Experience data={resume.experience} />}
+          {resume.education && <Education data={resume.education} />}
           {resume.projects && <Projects data={resume.projects} />}
+          {resume.experience && <Experience data={resume.experience} />}
         </div>
         <div className="lg:w-1/3 lg:pl-8 lg:border-l lg:border-neutral-300 ">
           {resume.skills && <Skills data={resume.skills} />}
-          {resume.education && <Education data={resume.education} />}
-          {resume.sidebar &&
-            resume.sidebar.map(item => (
-              <List key={`${item.title}-side`} data={item} />
-            ))}
+          {resume.honors && <Honors data={resume.honors} />}
         </div>
       </div>
       <Footer social={resume.social} />
