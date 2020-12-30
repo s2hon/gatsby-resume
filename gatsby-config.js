@@ -44,5 +44,5 @@ module.exports = {
         tailwind: true, // Enable tailwindcss support
       }
     }
-  ],
+  ]
 };

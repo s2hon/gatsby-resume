@@ -1,4 +1,6 @@
-import React from 'react';
+import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLink } from '@fortawesome/free-solid-svg-icons'
 
 const Education = ({ data }) => (
   <section className="mb-5">
@@ -6,7 +8,18 @@ const Education = ({ data }) => (
     {data &&
       data.map(item => (
         <div className="my-2" key={item.degree}>
-          <h2 className="item-header text-lg">{item.degree}</h2>
+          <h1 className="item-header text-lg">{item.degree}
+            {item.link ? 
+              <a
+                className="btn-social-icon"
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{marginLeft: "5px"}}
+              >
+                  <FontAwesomeIcon icon={faLink} />
+              </a> : ""}
+          </h1>
           <h3 className="item-sub">{item.institution}</h3>
           <p className="text-sm text-neutral-500 font-light">
             {item.start} - {item.end}

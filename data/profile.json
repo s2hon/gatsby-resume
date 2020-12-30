@@ -12,6 +12,7 @@
     {
       "institution": "The University of Texas at Austin - Center for Professional Education",
       "degree": "Web Development Full Stack Flex",
+      "link": "https://drive.google.com/file/d/1nFHDsKvBd7ScmNDK-mvHMLq62mR9rEvA/view?usp=sharing",
       "description": "A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS.",
       "start": "Sep 2020",
       "end": "Dec 2020"
@@ -173,7 +174,8 @@
   "honors": [
     {
       "date": "Dec 2018",
-      "name": "Barkeep App funded by the Genesis Program, Awarded $4,500"
+      "name": "Barkeep App funded by the Genesis Program, Awarded $4,500",
+      "link": "https://medium.com/genesis-program/announcing-the-genesis-investment-in-barkeep-d515127b3a5f"
     },
     {
       "date": "Fall 2018",
