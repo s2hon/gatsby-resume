@@ -43,7 +43,7 @@
       "role": "Project Manager",
       "company": "Barkeep",
       "location": "Austin, TX",
-      "goal": "Plan, organize, and execute event logistics with Event Manager from initial stages of development, through on-site and event wrap-up.",
+      "goal": "Research, develop, plan marketing strategies to not only find seed money, investors, and mentors but also to grow brand attraction.",
       "value": "Strategic planning to gain exposure and funding is crucial for the survival of start ups.",
       "contribution": [
         "Coordinate all administrative (i.e. set up meetings, coordinate schedules), operational, analytical tasks/responsibilities related to business unit including assembling and summarizing data; preparing reports; making marketing strategies",
@@ -80,9 +80,9 @@
         "Diners can add items to their order tracker, see the amount those items would've cost, and calculate tip.",
         "A timer shows diners how long they have left in their limited all-you-can-eat dining time."
       ],
-      "link": "https://sushi-junai.herokuapp.com/",
-      "github": "https://github.com/s2hon/sushi-junai",
-      "tools": "React, Redux, Node.JS (express/passport), MySQL, Sequelize, Yelp API, Reactstrap, Heroku"
+      "link": "https://www.sushi-junai.app/",
+      "github": "https://github.com/sushi-junai-atx/sushi-junai",
+      "tools": "React, Redux, Node.JS (express/passport), Yelp API, Reactstrap, Netlify"
     },
     {
       "name": "EarBud (Academic Project)",
