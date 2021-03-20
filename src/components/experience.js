@@ -13,9 +13,6 @@ const Experience = ({ data }) => (
             <h3 className="text-sm text-neutral-500 font-light">
               {item.company} | {item.location} | {item.start} - {item.end || 'PRESENT'} 
             </h3>
-            <h4 className="item-sub"><span className="font-bold">Goal:</span> {item.goal}</h4>
-            <h4 className="item-sub"><span className="font-bold">Value:</span>  {item.value}</h4>
-            <h4 className="item-sub font-bold">My Contributions:</h4>
             {item.contribution &&
               item.contribution.map(item => 
                 (

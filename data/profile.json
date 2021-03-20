@@ -1,5 +1,5 @@
 { 
-  "role": "Junior Full Stack Web Developer/Project Manager/Event Planner",
+  "role": "Software Engineer | Project Manager | Event Planner",
   "fullname": "Staci Jang Shon",
   "contact": {
     "phone": "+1 979.219.5702",
@@ -7,13 +7,13 @@
     "website": "https://www.staci-shon.dev",
     "location": "Austin, Texas"
   },
-  "summary": "Full Stack Web Application Developer with background in Business management and Entrepreneurship. With over 5 years of experience in the hospitality industry, I’ve been effectively and creatively problem solving to develop user friendly applications for small businesses.",
+  "summary": "Versatile full stack Software Engineer with a penchant for producing user-friendly solutions. Complimentary skills include Business Management, Marketing, Content Management/Strategy, and Data Analytics.",
   "education": [
     {
       "institution": "The University of Texas at Austin - Center for Professional Education",
       "degree": "Web Development Full Stack Flex",
       "link": "https://drive.google.com/file/d/1nFHDsKvBd7ScmNDK-mvHMLq62mR9rEvA/view?usp=sharing",
-      "description": "A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS.",
+      "description": "Intensive program that covered  Javascript, HTML5, CSS3, JQuery, Bootstrap, Firebase, Node.js, MySQL, MongoDB, Express, Handelbars.js ReactJS.",
       "start": "Sep 2020",
       "end": "Dec 2020"
     },
@@ -26,14 +26,25 @@
   ],
   "experience": [
     {
+      "role": "Website & Social Media Manager",
+      "company": "Contract",
+      "location": "Austin, TX",
+      "contribution": [
+        "Curating online presence for small businesses around Austin, TX via creating main homepages, online menus, and social media accounts.",
+        "Managing all marketing efforts, including events, mass email, social media, and website updates.",
+        "Cultivating relationships with consultants, vendors, and contractors to optimize marketing campaigns."
+      ],
+      "start": "April 2020",
+      "end": "Present"
+    },
+    {
       "role": "Event & Catering Coordinator",
       "company": "La Pera Catering",
       "location": "Austin, TX",
-      "goal": "Plan, organize, and execute event logistics with Event Manager from initial stages of development, through on-site and event wrap-up.",
-      "value": "Made job of Event Sales Manager and Event Manager easier by filling the gap in-between.",
       "contribution": [
-        "Created a custom Kanban board, to keep track of all active events, in the first two weeks I joined the company.",
-        "Sales and booking rates increased 200% in a six-month period.",
+        "Planned, organized, and executed event logistics from initial stages of development, through on-site and event wrap-up. ",
+        "Acted as liaison between Sales Manager and Event Manager in the process.",
+        "Created a bespoke Kanban board to track all active events which generated a 200% increase in sales and booking rates.",
         "Successfully secured two long-term partnerships."
       ],
       "start": "Aug 2019",
@@ -43,11 +54,11 @@
       "role": "Project Manager",
       "company": "Barkeep",
       "location": "Austin, TX",
-      "goal": "Research, develop, plan marketing strategies to not only find seed money, investors, and mentors but also to grow brand attraction.",
-      "value": "Strategic planning to gain exposure and funding is crucial for the survival of start ups.",
       "contribution": [
-        "Coordinate all administrative (i.e. set up meetings, coordinate schedules), operational, analytical tasks/responsibilities related to business unit including assembling and summarizing data; preparing reports; making marketing strategies",
-        "Successfully entered and won several startup competitions, collecting several awards and prizes (totaling $10,000)"
+        "Researched, developed, and planned marketing strategies to find seed money, attract investors, and mentors and build brand attraction.",
+        "Created and maintained Barkeep website.",
+        "Performed operational and analytical duties including assembling and summarizing data; generating reports and creating marketing strategies from them.",
+        "Won several startup competitions, collecting several awards and prizes (totaling $10,000)."
       ],
       "start": "Aug 2017",
       "end": "Mar 2019"
@@ -73,28 +84,57 @@
   ],
   "projects": [
     {
-      "name": "Sushi Junai (Interactive Menu Web App)",
-      "keywords": "Initiate project, manage project development and completion, front-end, back-end",
+      "name": "Interactive Online Menu - Sushi Junai",
+      "title": "Full Stack Developer, Product Owner",
+      "keywords": "Was the front-end developer and owner of this project - handling the development and maintence to accomplish the following objectives:",
       "description": [
-        "Login, Register functionality & Users can save favorites.",
-        "Diners can add items to their order tracker, see the amount those items would've cost, and calculate tip.",
-        "A timer shows diners how long they have left in their limited all-you-can-eat dining time."
+        "Currently in use by the establishment with 4000+ unique visitors and counting.",
+        "Dynamic order tracker that displays current and past orders, total cost and calculates the tip.",
+        "A timer that displays remaining all-you-can-eat dining time."
       ],
       "link": "https://www.sushi-junai.app/",
       "github": "https://github.com/sushi-junai-atx/sushi-junai",
-      "tools": "React, Redux, Node.JS (express/passport), Yelp API, Reactstrap, Netlify"
+      "tools": "React.js, Redux, Yelp API, Reactstrap, Netlify"
     },
     {
-      "name": "EarBud (Academic Project)",
-      "keywords": "Initiate project, manage project development and completion, re-structure boilerplate code, front-end(AJAX), back-end(CRUD)",
+      "name": "Full Stack Interactive Menu",
+      "title": "Full Stack Developer, Project Manager",
+      "summary": "Was the full stack developer of this project, owning it from start to finish - handling the design, implementation, and development of both the front and back end to accomplish the following objectives:",
       "description": [
-        "Basic Login, Sign up (register) functionality.",
-        "User can search, catalogue, and review music on an individual page, curating their tastes and watching trends emerge in real time."
+        "User registration, login, and favorite item saving functionality.",
+        "Created a dynamic order tracker that displays current orders, costs and calculates the tip.",
+        "A timer that displays remaining all-you-can-eat dining time."
+      ],
+      "link": "https://sushi-junai.heroku.app/",
+      "github": "https://github.com/s2hon/sushi-junai",
+      "tools": "React.js, Redux, Yelp API, Reactstrap, Node.js (express/passport/Sequelize), MySQL, Heroku"
+    },
+    {
+      "name": "EarBud",
+      "title": "Full Stack Developer, Project Manager",
+      "keywords": "This Spotify integrated music reviewing, curating, and cataloging platform allows users to enjoy the same experience they are used to on sites like Rotten Tomatoes. In collaboration with a small team I was able to achieve the following by re-structuring boilerplate code, using AJAX for the front-end, and crud for the back-end:",
+      "description": [
+        "User registration and login functionality.",
+        "Search, catalog, and review music on an individual page to curate an individual tastes profile.",
+        "Trend analysis and presentation of this data in real-time."
       ],
       "link": "https://earbudteam8.herokuapp.com/",
       "github": "https://github.com/s2hon/EARBUD",
       "responsibilities": "",
-      "tools": "HTML5, CSS3, Foundation, jQuery, Node.JS (express/passport), MySQL, Sequelize, Spotify API, Heroku"
+      "tools": "jQuery, Foundation, Node.js (express/passport/Sequelize), MySQL, Spotify API, Heroku"
+    },
+    {
+      "name": "The Hunger Game",
+      "title": "Front End Developer, Project Manager",
+      "keywords": "This Edamam database integrated mobile-friendly diet recipe generator allows users to generate random recipes based on dietary preferences. With a small team, I was the lead developer of this project, owning it from start to finish - handling the design, implementation, and development to accomplish the following objectives:",
+      "description": [
+        "A shopping cart that allows users to add ingredients to refer to later on.",
+        "A map where users can search for the nearest grocery store."
+      ],
+      "link": "https://earbudteam8.herokuapp.com/",
+      "github": "https://github.com/s2hon/EARBUD",
+      "responsibilities": "",
+      "tools": "jQuery, Materialize, MapBox API, Edamam API, Github Pages"
     }
   ],
   "skills": [
@@ -103,7 +143,7 @@
       "type": "tag",
       "subskills": [
         {
-          "name": "Vanilla.js"
+          "name": "JavaScript"
         },
         {
           "name": "HTML5"
@@ -125,6 +165,9 @@
         },
         {
           "name": "Redux"
+        },
+        {
+          "name": "Vue.js"
         }
       ]
     },
